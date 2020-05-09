@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chrisdev.newsroom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/indexnb2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.StudentMenu"
+            android:label="@string/title_activity_student_menu"></activity>
+        <activity
+            android:name=".activity.AdminMenu"
+            android:label="@string/title_activity_admin_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.Menu" />
+        <activity android:name=".activity.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Login">
+            <intent-filter>
+                <action android:name="com.chrisdev.newsroom.activity.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MyAccount">
+            <intent-filter>
+                <action android:name="com.chrisdev.newsroom.activity.MYACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ChangePassword">
+            <intent-filter>
+                <action android:name="com.chrisdev.newsroom.activity.CHANGEPASSWORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
