@@ -8,14 +8,19 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
+<!--    action menu strings-->
     <string name="change_password">Change Password</string>
     <string name="my_account">My Account</string>
     <string name="action_logout">Logout</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_student">Register Student</string>
-    <string name="menu_staff">Register Staff</string>
-    <string name="menu_poster">Poster</string>
+    <string name="change_password_student">Change Password</string>
+    <string name="my_account_student">My Account</string>
+    <string name="action_logout_student">Logout</string>
+
+    <string name="menu_home">home</string>
+    <string name="menu_student">Student Registration</string>
+    <string name="menu_staff">Staff Registration</string>
+    <string name="menu_poster">Notice</string>
 
     <string name="home_second">Home Second</string>
     <string name="register_student">Register Student</string>
@@ -23,10 +28,12 @@
     <string name="poster">Poster</string>
     <string name="login">LOGIN</string>
     <string name="sign_in">Sign In</string>
+
     <string name="title_activity_student_menu">StudentMenu</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">PROFILE</string>
+    <string name="title_dashboard">DASHBOARD</string>
+    <string name="title_activity">ACTIVITY</string>
+    <string name="title_notifications">MESSAGES</string>
 
 
 </resources>
